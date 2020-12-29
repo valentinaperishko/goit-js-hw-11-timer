@@ -4,12 +4,33 @@
   }
   
   body {
-    background-color: wheat;
-    color: black;
+    background-color: black;
+    color: wheat;
+    font-family: 'Codystar', cursive;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./aesthetic-christmas-background-download-full.jpg);
   }
   
   #headerTitle {
     text-align: center;
     margin-top: 150px;
+    font-size: 60px;
+  }
+
+  #timer-1 {
+    margin: 100px auto;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+    }
+  
+  #timer-1 div {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 30px;
+  }
+  #timer-1 span {
+    font-size: 30px;
   }
   
