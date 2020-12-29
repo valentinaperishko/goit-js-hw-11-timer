@@ -5,7 +5,7 @@ const refs = {
   mins: document.querySelector('.value[data-value="mins"]'),
   secs: document.querySelector('.value[data-value="secs"]'),
 };
-console.log(refs);
+// console.log(refs);
 
 let day = `Jan 7 2021 00:00:01`;
 
@@ -26,7 +26,7 @@ function pad(value) {
 function myTimer(date, object) {
   let timeBetween = new Date(date) - Date.now();
   let x = setTime(timeBetween);
-  console.log(x);
+//   console.log(x);
 
   object.days.textContent = x.days;
   object.hours.textContent = x.hours;
