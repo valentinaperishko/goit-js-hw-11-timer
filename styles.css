@@ -33,4 +33,10 @@
   #timer-1 span {
     font-size: 30px;
   }
+
+  .field {
+    border: 2px dotted wheat;
+    border-radius: 10px;
+    width: 160px ;
+  }
   
