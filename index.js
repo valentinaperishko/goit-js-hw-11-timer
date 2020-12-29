@@ -42,7 +42,4 @@ window.addEventListener('DOMContentLoaded', () => {
   }, 1000);
 });
 
-window.addEventListener('click', () => {
-  clearInterval(interval);
-  pad(refs.days, refs.hours, refs.mins, refs.seconds);
-});
+

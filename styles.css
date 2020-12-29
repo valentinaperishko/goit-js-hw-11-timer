@@ -37,6 +37,6 @@
   .field {
     border: 2px dotted wheat;
     border-radius: 10px;
-    width: 160px ;
+    min-width: 160px ;
   }
   
